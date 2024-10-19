@@ -1,42 +1,34 @@
-/* bodyのフォント種類を、「"Arial", "Meiryo", sans-serif」 にします。 */
 body {
   font-family: "Arial", "Meiryo", sans-serif;
 }
 
-/* ルート要素のフォントサイズを20pxにします。 */
-/* テキストを、全て中央寄せにします。 */
 html {
   font-size: 20px;
   text-align: center;
 }
 
-/* 「MY PROFILE」で指定のピンク、スカイブルーをh2へクラスを利用し指定。 */
 .text-skyblue {
-  color: skyblue; /* 色をスカイブルーに指定 */
+  color: skyblue;
+  /* 色をスカイブルーに指定 */
 }
+
 .text-pink {
-  color: rgb(225, 192, 203); /* 色をピンクに指定 */
+  color: rgb(225, 192, 203);
+  /* 色をピンクに指定 */
 }
 
 h1 {
-  /* ここにGoogle Fonts「Josefin Sans」を指定します */
   font-family: "Josefin Sans", sans-serif;
 
-  /* h1のフォントサイズは、ルート要素の2倍へ。 */
   font-size: 2rem;
 
-  /* h1の文字間は、文字の大きさに対して1.2倍へ。 */
   letter-spacing: 1.2em;
 
-  /* h1に影を付ける。 */
   text-shadow: 1px 1px 2px gray;
 
-  /* h1の下に3px（カラー：rgb(115, 115, 114)）の実線を付ける。 */
   border-bottom: solid 3px rgb(115, 115, 114);
 }
 
-/* 子孫要素の考え方を利用して、「侍太郎」「1990年1月1日」「O型」を太字にしてください。 */
-.child1{
-  font-weight:bold;
-  }
-  
+#basic {
+  font-weight: bold;
+}
